@@ -1,0 +1,15 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+.footer {
+    position: fixed;
+    padding-top: 10px;
+    bottom: 0;
+    color: white;
+    background-color: #CDDC39;
+}
+
+.header {
+    background-color: #CDDC39;
+}

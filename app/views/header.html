@@ -1,0 +1,17 @@
+<div class="container-fluid" ng-controller="homeCtrl">
+    <div class="col-md-9">
+        <h1>SWATHI..............</h1>
+    </div>
+    <div class="col-xs-3" ng-show="myUser">
+        <h3><span>{{fnget()}} {{un2 | showGreetings}}
+                <span class="glyphicon glyphicon-user"></span>
+                <span class="dropdown">
+                    <span class="glyphicon glyphicon-triangle-bottom dropdown-toggle" data-toggle="dropdown"></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" ng-click="fnStateChange2()">Log Out</a></li>
+                    </ul>
+                </span>    
+            </span>
+        </h3>
+    </div>
+</div>
